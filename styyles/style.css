@@ -178,3 +178,18 @@ p {
 }
 
 
+@media (max-width:768px) {
+
+    .title{
+        margin-bottom: 0;
+        font-size: 40px;
+    }
+
+    .sau {
+        height: 120vh;
+    }
+
+    .navbar {
+        display: none;
+    }
+}
