@@ -62,7 +62,6 @@ body {
 .header {
     height: 60vh !important;
     background:#171717;
-    background-filter: blur(degree-of-blur);
     background-size: cover;
 }
 
@@ -167,7 +166,6 @@ p {
 
 .price {
     background: #1f1d1d;
-    background-filter: blur(degree-of-blur);
     background-size: cover;
     text-align: center;
 }
