@@ -1,46 +1,90 @@
 <!DOCTYPE html>
 <html>
 <head>
-<style>
-h1 {
-  text-align: center;
-}
+  <title>Help Me Find</title>
+  <style>
+    /* Styles for the navigation bar */
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #333;
+      color: white;
+      padding: 10px 20px;
+    }
 
-h2 {
-  text-align: left;
-}
+    .navbar-logo img {
+      max-height: 50px;
+    }
 
-h3 {
-  text-align: right;
-}
-  body {
-    text-align: center;
-    font-family: sans-serif;
-}
-.navbar { 
-    display: flex; margin-right: 10px; 
-        }
-  .navbar a{
-    display: block;
-    padding: 20px 20px;
-    color:#ffffff;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 20px;   
-}
+    .navbar-links {
+      display: flex;
+    }
 
-.navbar a:hover {
-    background: #3f3f3f;
-}
-</style>
+    .navbar-links a {
+      color: white;
+      text-decoration: none;
+      padding: 10px 20px;
+      transition: background-color 0.3s;
+    }
+
+    .navbar-links a:hover {
+      background-color: #555;
+    }
+
+    /* Styles for the table */
+    .table-container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      grid-template-rows: repeat(5, 1fr);
+      grid-gap: 10px;
+      background-color: #333;
+      padding: 20px;
+    }
+
+    .table-cell {
+      background-color: #444;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 18px;
+      font-weight: bold;
+    }
+  </style>
 </head>
 <body>
+  <div class="navbar">
+    <a href="https://ibb.co/4f6vxtR" class="navbar-logo"><img src="https://i.ibb.co/4f6vxtR/HELP-ME-FIND-200-x-200-px.png" alt="HELP-ME-FIND-200-x-200-px"></a>
+    <div class="navbar-links">
+      <a href="index.html">HOME</a>
+      <a href="#">LOST OBJECTS</a>
+      <a href="#">ABOUT US</a>
+      <a href="#">CONTACT US</a>
+    </div>
+  </div>
 
-<h1>Upload Lost Objects</h1>
-<h2>Here you can upload lost objects that you found.</h2>
-<h3>Heading 3 (right)</h3>
-
-<p>The three headings above are aligned center, left and right.</p>
-<img src="incomodo.jpg" />
+  <div class="table-container">
+    <div class="table-cell">1</div>
+    <div class="table-cell">2</div>
+    <div class="table-cell">3</div>
+    <div class="table-cell">4</div>
+    <div class="table-cell">5</div>
+    <div class="table-cell">6</div>
+    <div class="table-cell">7</div>
+    <div class="table-cell">8</div>
+    <div class="table-cell">9</div>
+    <div class="table-cell">10</div>
+    <div class="table-cell">11</div>
+    <div class="table-cell">12</div>
+    <div class="table-cell">13</div>
+    <div class="table-cell">14</div>
+    <div class="table-cell">15</div>
+    <div class="table-cell">16</div>
+    <div class="table-cell">17</div>
+    <div class="table-cell">18</div>
+    <div class="table-cell">19</div>
+    <div class="table-cell">20</div>
+  </div>
 </body>
 </html>
