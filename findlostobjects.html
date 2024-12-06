@@ -1,94 +1,109 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Help Me Find</title>
-  <style>
-    /* Estilos generales */
-    body {
-      margin: 0;
-      padding: 0;
-      font-family: Arial, sans-serif;
-      background-color: #333;
-      color: white;
-    }
+    <meta charset="UTF-8">
+    <title>Help Me Find - Find Lost Objects</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1f1d1d;
+            color: white;
+        }
 
-    /* Estilos para la barra de navegación */
-     .navbar {
-    display: flex;
-    justify-content: flex-end; /* Align navbar items to the right */
-    background-color: #333;
-    color: white;
-    padding: 10px 20px;
-  }
-  .navbar a {
-    color: white;
-    text-decoration: none;
-    padding: 10px 20px;
-  }
-  .navbar a:hover {
-    background-color: #555;
-  }
+        nav {
+            background-color: #333;
+            padding: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
 
-    /* Estilos para la tabla */
-    .table-container {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      grid-template-rows: repeat(5, 1fr);
-      grid-gap: 10px;
-      background-color: #333;
-      padding: 10px;
-      width: 90%;
-      margin: 20px auto;
-    }
+        .logo {
+            margin-right: 20px;
+        }
 
-    .table-cell {
-      background-color: #444;
-      color: white;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      font-size: 18px;
-      font-weight: bold;
-      padding: 10px;
-      text-align: center;
-    }
-  </style>
+        .logo img {
+            height: 50px;
+            vertical-align: middle;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #1f1d1d;
+        }
+
+        .table-container {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        .table-cell {
+            border: 1px solid #666;
+            padding: 10px;
+            text-align: center;
+        }
+
+        h1 {
+            color: white;
+            text-align: center;
+            border-bottom: 2px solid white;
+            padding-bottom: 10px;
+        }
+    </style>
 </head>
 <body>
-   <div class="head">
+    <nav>
+        <div class="logo">
+            <a href="index.html">
+                <img src="https://i.ibb.co/4f6vxtR/HELP-ME-FIND-200-x-200-px.png" alt="HELP-ME-FIND-200-x-200-px" ></a>
+            </a>
+        </div>
+        <a href="index.html">Home</a>
+        <a href="uploadlostobjects.html">Upload Lost Objects</a>
+        <a href="#">Find Lost Objects</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="contactus.html">Contact Us</a>
+    </nav>
 
-        <nav class="navbar">
-            <a href="#">Home</a>
-            <a href="uploadlostobject.html">Upload Lost Objects</a>
-            <a href="findlostobjects.html">Find Lost Objects</a>
-            <a href="aboutus.html">About Us</a>
-            <a href="contactus.html">Contact Us</a>
-        </nav>
+    <div class="container">
+        <h1>Find Lost Objects</h1>
+        <div class="table-container">
+            <div class="table-cell">👤 username_1</div>
+            <div class="table-cell">Cellphone Iphone Xs Max</div>
+            <div class="table-cell">05/Dec/24</div>
+            <div class="table-cell">4</div>
 
+            <div class="table-cell">👤 username_2</div>
+            <div class="table-cell">Honda Civic Car Keys</div>
+            <div class="table-cell">06/Dec/24</div>
+            <div class="table-cell">8</div>
+
+            <div class="table-cell">👤 username_3</div>
+            <div class="table-cell">Iphone 15 Pro</div>
+            <div class="table-cell">04/Dec/24</div>
+            <div class="table-cell">12</div>
+
+            <div class="table-cell">👤 username_4</div>
+            <div class="table-cell">Wallet With Identifications</div>
+            <div class="table-cell">03/Dec/24</div>
+            <div class="table-cell">16</div>
+
+            <div class="table-cell">👤 username_5</div>
+            <div class="table-cell">Apple Smart Watch</div>
+            <div class="table-cell">06/Dec/24</div>
+            <div class="table-cell">20</div>
+        </div>
     </div>
-
-
-  <div class="table-container">
-    <div class="table-cell">👤 username_1</div>
-    <div class="table-cell">Cellphone Iphone Xs Max</div>
-    <div class="table-cell">05/Dec/24</div>
-    <div class="table-cell">4</div>
-    <div class="table-cell">👤 username_2</div>
-    <div class="table-cell">Honda Civic Car Keys</div>
-    <div class="table-cell">06/Dec/24</div>
-    <div class="table-cell">8</div>
-    <div class="table-cell">👤 username_3</div>
-    <div class="table-cell">Iphone 15 Pro</div>
-    <div class="table-cell">04/Dec/24</div>
-    <div class="table-cell">12</div>
-    <div class="table-cell">👤 username_4</div>
-    <div class="table-cell">Wallet With Identifications</div>
-    <div class="table-cell">03/Dec/24</div>
-    <div class="table-cell">16</div>
-    <div class="table-cell">👤 username_5</div>
-    <div class="table-cell">Apple Smart Watch</div>
-    <div class="table-cell">06/Dec/24</div>
-    <div class="table-cell">20</div>
-  </div>
 </body>
 </html>
