@@ -13,24 +13,21 @@
     }
 
     /* Estilos para la barra de navegación */
-    .navbar {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      background-color: #121212;
-      color: white;
-      padding: 15px 30px;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.3);
-    }
-
-    .navbar-logo img {
-      max-height: 80px;
-      transition: transform 0.3s ease;
-    }
-
-    .navbar-logo img:hover {
-      transform: scale(1.1);
-    }
+   .navbar {
+    display: flex;
+    justify-content: flex-end; /* Align navbar items to the right */
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+  }
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+  }
+  .navbar a:hover {
+    background-color: #555;
+  }
 
     .navbar-links {
       display: flex;
@@ -124,7 +121,7 @@
             <a href="index.html">Home</a>
             <a href="uploadlostobjects.html">Upload Lost Objects</a>
             <a href="findlostobjects.html">Find Lost Objects</a>
-            <a href="#">About Us</a>
+            <a href="aboutus.html">About Us</a>
             <a href="contactus.html">Contact Us</a>
         </nav>
     </div>
