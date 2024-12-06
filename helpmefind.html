@@ -15,7 +15,18 @@
         nav {
             background-color: #333;
             padding: 15px;
-            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .logo {
+            margin-right: 20px;
+        }
+
+        .logo img {
+            height: 50px; /* Adjusted to be smaller */
+            vertical-align: middle;
         }
 
         nav a {
@@ -48,6 +59,11 @@
 </head>
 <body>
     <nav>
+        <div class="logo">
+            <a href="index.html">
+                <img src="path/to/HELP-ME-FIND-200-x-200-px.png" alt="Help Me Find Logo">
+            </a>
+        </div>
         <a href="index.html">Home</a>
         <a href="uploadlostobjects.html">Upload Lost Objects</a>
         <a href="findlostobjects.html">Find Lost Objects</a>
