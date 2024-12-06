@@ -1,157 +1,59 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Lost Objects</title>
+  <title>Contact Us</title>
   <style>
-    /* Reset some default styles */
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    /* Body styles */
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #1b1b1b;
-      color: #fff;
-    }
-
-    /* Header and navigation styles */
-    header {
-      background-color: #000;
-      padding: 1rem;
-    }
-
-    nav ul {
-      display: flex;
-      justify-content: center;
-      list-style-type: none;
-    }
-
-    nav ul li {
-      margin: 0 1rem;
-    }
-
-    nav ul li a {
-      color: #fff;
-      text-decoration: none;
-    }
-
-    /* Main content styles */
-    .grid-container {
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
-      gap: 1rem;
-      padding: 2rem;
-    }
-
-    .grid-item {
-      background-color: #2b2b2b;
-      padding: 2rem;
-      text-align: center;
-      font-size: 1.2rem;
-      font-weight: bold;
-    }
-
     /* Comment section styles */
     .comment-section {
-      background-color: #2b2b2b;
-      padding: 2rem;
-      margin-top: 2rem;
-    }
-
-    .comment-section h2 {
-      margin-bottom: 1rem;
+      background-color: #f2f2f2;
+      padding: 20px;
+      margin-top: 20px;
     }
 
     .form-group {
-      margin-bottom: 1rem;
+      margin-bottom: 10px;
     }
 
-    .form-group label {
+    label {
       display: block;
-      margin-bottom: 0.5rem;
+      font-weight: bold;
     }
 
-    .form-group input,
-    .form-group textarea {
+    input, textarea {
       width: 100%;
-      padding: 0.5rem;
-      background-color: #1b1b1b;
-      color: #fff;
-      border: none;
+      padding: 5px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
     }
 
-    .form-group textarea {
-      resize: vertical;
-    }
-
-    button[type="submit"] {
-      background-color: #000;
-      color: #fff;
-      padding: 0.5rem 1rem;
+    button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 20px;
       border: none;
+      border-radius: 3px;
       cursor: pointer;
     }
   </style>
 </head>
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#">HOME</a></li>
-        <li><a href="#">LOST OBJECTS</a></li>
-        <li><a href="#">ABOUT US</a></li>
-        <li><a href="#">CONTACT US</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <main>
-    <div class="grid-container">
-      <div class="grid-item">1</div>
-      <div class="grid-item">2</div>
-      <div class="grid-item">3</div>
-      <div class="grid-item">4</div>
-      <div class="grid-item">5</div>
-      <div class="grid-item">6</div>
-      <div class="grid-item">7</div>
-      <div class="grid-item">8</div>
-      <div class="grid-item">9</div>
-      <div class="grid-item">10</div>
-      <div class="grid-item">11</div>
-      <div class="grid-item">12</div>
-      <div class="grid-item">13</div>
-      <div class="grid-item">14</div>
-      <div class="grid-item">15</div>
-      <div class="grid-item">16</div>
-      <div class="grid-item">17</div>
-      <div class="grid-item">18</div>
-      <div class="grid-item">19</div>
-      <div class="grid-item">20</div>
-    </div>
-
-    <div class="comment-section">
-      <h2>Leave a Comment</h2>
-      <form>
-        <div class="form-group">
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name" required>
-        </div>
-        <div class="form-group">
-          <label for="email">Email:</label>
-          <input type="email" id="email" name="email" required>
-        </div>
-        <div class="form-group">
-          <label for="comment">Comment:</label>
-          <textarea id="comment" name="comment" rows="5" required></textarea>
-        </div>
-        <button type="submit">Submit</button>
-      </form>
-    </div>
-  </main>
+  <div class="comment-section">
+    <h2>Leave a Comment</h2>
+    <form>
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="comment">Comment:</label>
+        <textarea id="comment" name="comment" rows="5" required></textarea>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
 </body>
 </html>
