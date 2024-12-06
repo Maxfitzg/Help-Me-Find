@@ -1,9 +1,21 @@
+Entendido, aquí tienes la actualización con el fondo de color más oscuro y la tabla a todo lo ancho de la página:
+
+```html
 <!DOCTYPE html>
 <html>
 <head>
   <title>Help Me Find</title>
   <style>
-    /* Styles for the navigation bar */
+    /* Estilos generales */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background-color: #333;
+      color: white;
+    }
+
+    /* Estilos para la barra de navegación */
     .navbar {
       display: flex;
       justify-content: space-between;
@@ -32,7 +44,7 @@
       background-color: #555;
     }
 
-    /* Styles for the table */
+    /* Estilos para la tabla */
     .table-container {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
@@ -40,6 +52,8 @@
       grid-gap: 10px;
       background-color: #333;
       padding: 20px;
+      width: 100%;
+      height: calc(100vh - 70px); /* Ajusta la altura de la tabla al tamaño de la ventana */
     }
 
     .table-cell {
@@ -88,3 +102,12 @@
   </div>
 </body>
 </html>
+```
+
+Los cambios realizados son:
+
+1. Se ha establecido el color de fondo de la página en `#333` (gris oscuro).
+2. La altura de la tabla se establece mediante `height: calc(100vh - 70px);` para que ocupe todo el espacio disponible debajo de la barra de navegación.
+3. El ancho de la tabla se establece al 100% para que ocupe todo el ancho de la página.
+
+Espero que esta versión actualizada cumpla con tus requisitos. Déjame saber si necesitas algo más.
