@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>What is Help Me Find - Lost Objects</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1f1d1d;
+            color: white;
+        }
+
+        nav {
+            background-color: #333;
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #1f1d1d;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            color: white;
+            text-align: center;
+            border-bottom: 2px solid white;
+            padding-bottom: 10px;
+        }
+
+        p {
+            line-height: 1.6;
+            color: #e0e0e0;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="uploadlostobjects.html">Upload Lost Objects</a>
+        <a href="findlostobjects.html">Find Lost Objects</a>
+        <a href="aboutus.html">About Us</a>
+        <a href="contactus.html">Contact Us</a>
+    </nav>
+
+    <div class="container">
+        <h1>What is Help Me Find?</h1>
+        <p>
+            Help Me Find is an innovative platform designed to reunite people with their lost belongings. 
+            Our mission is simple: create a community-driven solution to the frustrating problem of lost items.
+        </p>
+        <p>
+            How does it work? Users can easily upload details and photos of lost or found objects. Our platform 
+            provides a user-friendly interface that allows individuals to search through listings, making the 
+            process of finding lost items as smooth and efficient as possible.
+        </p>
+        <p>
+            Whether you've lost a valuable personal item, a cherished memory, or an important document, 
+            Help Me Find is here to assist you. Our platform connects people, creates hope, and increases 
+            the chances of reuniting lost objects with their rightful owners.
+        </p>
+        <p>
+            Join our community today and help make lost objects a thing of the past. Together, we can 
+            turn lost into found.
+        </p>
+    </div>
+</body>
+</html>
