@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>About Us - Lost Objects</title>
+    <title>Help Me Find - About Us</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -12,28 +12,35 @@
             color: white;
         }
 
-          .navbar {
-    display: flex;
-    justify-content: flex-end; /* Align navbar items to the right */
-    background-color: #333;
-    color: white;
-    padding: 10px 20px;
-  }
-  .navbar a {
-    color: white;
-    text-decoration: none;
-    padding: 10px 20px;
-  }
-  .navbar a:hover {
-    background-color: #555;
-  }
+        nav {
+            background-color: #333;
+            padding: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .logo {
+            margin-right: 20px;
+        }
+
+        .logo img {
+            height: 50px;
+            vertical-align: middle;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
 
         .container {
             max-width: 800px;
             margin: 20px auto;
             padding: 20px;
             background-color: #1f1d1d;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
 
         h1 {
@@ -50,15 +57,18 @@
     </style>
 </head>
 <body>
-    <div>
-     <nav class="navbar">
-            <a href="index.html">Home</a>
-            <a href="uploadlostobjects.html">Upload Lost Objects</a>
-            <a href="findlostobjects.html">Find Lost Objects</a>
-            <a href="#">About Us</a>
-            <a href="contactus.html">Contact Us</a>
-        </nav>
-    </div>
+    <nav>
+        <div class="logo">
+            <a href="index.html">
+                <img src="https://i.ibb.co/4f6vxtR/HELP-ME-FIND-200-x-200-px.png" alt="HELP-ME-FIND-200-x-200-px" ></a>
+            </a>
+        </div>
+        <a href="index.html">Home</a>
+        <a href="uploadlostobjects.html">Upload Lost Objects</a>
+        <a href="findlostobjects.html">Find Lost Objects</a>
+        <a href="#">About Us</a>
+        <a href="contactus.html">Contact Us</a>
+    </nav>
 
     <div class="container">
         <h1>About Us</h1>
